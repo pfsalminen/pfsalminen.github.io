@@ -36,6 +36,20 @@ h6 {
     font-weight: 700;
 }
 
+/*Added to create round image*/
+.round {
+	border-radius: 100%;
+	overflow: hidden;
+	width: 256px;
+	height: 256px;
+}
+
+.round img {
+	display: block;
+	min-width: 100%;
+	min-height: 100%;
+}
+
 hr.star-light,
 hr.star-primary {
     margin: 25px auto 30px;
