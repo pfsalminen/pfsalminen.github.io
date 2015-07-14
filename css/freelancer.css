@@ -215,7 +215,7 @@ section.success {
     color: #fff;
 /*Changed Background color*/
 /*    background: #2c3e50;*/
-	background: #D5D8DC;
+	background: #EAECEE;
 }
 
 section.success a,
@@ -224,7 +224,7 @@ section.success a:focus,
 section.success a:active,
 section.success a.active {
     outline: 0;
-    color: #2c3e50;
+    color: #EAECEE;
 }
 
 @media(max-width:767px) {
