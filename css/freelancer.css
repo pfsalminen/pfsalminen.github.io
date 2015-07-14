@@ -214,7 +214,8 @@ section h2 {
 section.success {
     color: #fff;
 /*Changed Background color*/
-    background: #2c3e50;
+/*    background: #2c3e50;*/
+	background: #969EA8;
 }
 
 section.success a,
