@@ -23,6 +23,7 @@ a:active,
 a.active {
     outline: 0;
     color: #2c3e50;
+	text-decoration: underline;
 }
 
 h1,
