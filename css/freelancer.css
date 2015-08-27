@@ -367,6 +367,7 @@ section.success a.active {
 }
 
 form .row:first-child .floating-label-form-group {
+	position: center;
     border-top: 1px solid #eee;
 }
 
