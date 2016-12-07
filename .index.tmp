@@ -102,7 +102,7 @@ No Nav Bar -->
         </div>
     </section>
 
-<!-- Portfolio Grid Section -->
+     <!-- Portfolio Grid Section -->
     <section class="success" id="about">
         <div class="container">
             <div class="row">
@@ -111,39 +111,9 @@ No Nav Bar -->
                     <hr class="star-light">
                 </div>
             </div>
-	    <div class="row">
-		<div class="col-sm-3 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/MSDTopicModel.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-		<div class="col-sm-3 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/csci5502.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-		<div class="col-sm-3 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/VNN.png" class="img-responsive" alt="">
-                    </a>
-                </div>
+			<div class="row">
                 <div class="col-sm-3 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
@@ -152,8 +122,20 @@ No Nav Bar -->
                         <img src="img/portfolio/sustain2020.png" class="img-responsive" alt="">
                     </a>
                 </div>
+				<!--
                 <div class="col-sm-3 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/tee.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+				-->
+                <div class="col-sm-3 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
@@ -163,7 +145,7 @@ No Nav Bar -->
                     </a>
                 </div>
                 <div class="col-sm-3 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
@@ -256,94 +238,7 @@ No Nav Bar -->
     </div>
 
     <!-- Portfolio Modals -->
-        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Music Lyric Topic Modeling</h2>
-                            <hr class="star-primary">
-                            <a href="https://github.com/corpusmusic/MSDTopicModel"><img src="img/portfolio/MSDTopicModel.png" class="img-responsive img-centered" alt=""></a>
-                            <p>This is part of a class project which collectively investigated the accuracy of genres ascribed to songs. Specifically, I spearheaded topic model of songs in the Million Song Dataset to group songs by their lyrics and look for correlations. Most of this project was completed using Python, especially the data cleaning. However, R was also utilized and Mallet was used for the actual topic modeling.</p>
-                            <ul class="list-inline item-details">
-                                <li>Date:
-                                    <strong>May 2016
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Automated Event Detection for Protein Unfolding</h2>
-                            <hr class="star-primary">
-                            <a href="https://github.com/prheenan/csci5502mining"><img src="img/portfolio/csci5502" class="img-responsive img-centered" alt=""></a>
-                            <p>This project was the final project for CU's CSCI5502: Data Mining graduate course. In this project, I worked alongside Patrick Heenan and Jared Jolton in an attempt to automate the location of protein unfolding in atomic force microscopy. The data was provided by Heenan's own research. This data was then normalized through various techniques. Then, different machine learning algorithms (including a neural network, linear regression, and K-means clustering) were used to predict new protein unfoldings in the data. This work was completed with Python.</p>
-                            <ul class="list-inline item-details">
-                                <li>Date:
-                                    <strong>May 2016
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Neural Network Visualization</h2>
-                            <hr class="star-primary">
-                            <a href="https://github.com/2PacIsAlive/neural_vis"><img src="img/portfolio/VNN.png" class="img-responsive img-centered" alt=""></a>
-                            <p>This project was performed as the final group project for CU's CSCI4830: Scientific Visualization with Jared Jolton and Austin Cerny. The project culminated with a ~7min video describing how a neural network "learns" over time. This includes visualizations showing the change in weights and activation values over time and for each new object. Most data handling was performed with python and it's SK-Learn package. </p>
-                            <ul class="list-inline item-details">
-                                <li>Date:
-                                    <strong>May 2016
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -380,7 +275,46 @@ No Nav Bar -->
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+	<!-- Remove TEE
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Web Development Project</h2>
+                            <hr class="star-primary">
+                            <a href="http://www.theeducationexchange.org"><img src="img/portfolio/tee.png" class="img-responsive img-centered" alt=""></a>
+                            <p>This website was made for a non-profit, The Education Exchange. It was a complete overhaul to replace the existing website.</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://www.theeducationexchange.org">The Education Exchange</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong>July 2015
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://pfsalminen.github.io">Paul Salminen Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	-->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -413,7 +347,7 @@ No Nav Bar -->
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
